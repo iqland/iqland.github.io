@@ -277,7 +277,7 @@ footer {
     box-sizing: border-box; 
     
     /* body의 상하 여백(50px + 50px = 100px)을 전체 높이(100vh)에서 빼줌 */
-    max-height: calc(100vh - 100px); 
+    height: calc(100vh - 100px); 
     padding-bottom: 20px; 
   }
 
