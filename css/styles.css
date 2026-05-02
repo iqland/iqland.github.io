@@ -269,7 +269,8 @@ footer {
   }
 }
 
-/* 화면 너비가 768px 이상인 데스크톱/태블릿 환경에서만 사이드바 스크롤 적용 */
+/*
+화면 너비가 768px 이상인 데스크톱/태블릿 환경에서만 사이드바 스크롤 적용
 @media (min-width: 768px) {
   header {
     overflow-y: auto;
@@ -279,7 +280,7 @@ footer {
     padding-bottom: 30px; 
   }
 
-  /* 스크롤바 숨김 처리 (선택 사항) */
+  스크롤바 숨김 처리 (선택 사항)
   header::-webkit-scrollbar {
     display: none; 
   }
@@ -288,3 +289,4 @@ footer {
     scrollbar-width: none; 
   }
 }
+*/
