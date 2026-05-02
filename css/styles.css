@@ -103,11 +103,20 @@ img {
   max-width:100%;
 }
 
+header::-webkit-scrollbar {
+  display: none; /* Safari, Chrome */
+}
+
 header {
   width:270px;
+  max-height: 100vh; /* 브라우저 화면 높이만큼만 렌더링되게 제한 */
   float:left;
   position:fixed;
+  scrollbar-width: none; /* Firefox */
+  overflow-y: auto;  /* 세로 내용이 넘칠 경우 스크롤 생성 */
+  -ms-overflow-style: none; /* IE, Edge */
   -webkit-font-smoothing:subpixel-antialiased;
+  -webkit-overflow-scrolling: touch; /* Mac/iOS Safari에서 부드러운 스크롤 지원 */
 }
 
 header ul {
